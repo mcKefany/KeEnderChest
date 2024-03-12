@@ -1,0 +1,18 @@
+item_enderchest:
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRjYzE4OTYzM2M3ODljYjZkNWU3OGQxM2E1MDQzYjI2ZTdiNDBjZGI3Y2ZjNGUyM2FhMjI3OTU3NDk2N2I0In19fQ==
+  name: '&#7600F4E&#710BF5n&#6D15F6d&#6820F8e&#642AF9r&#5F35FAC&#5B3FFBh&#564AFDe&#5254FEs&#4D5FFFt'
+  lore:
+    - ''
+    - ' &7- &fThe ender chest that can'
+    - '     &fhelp at any time!'
+    - ''
+    - ' &#3afb00● &f- Activation on LMB.'
+    - ''
+  glow: false # Object glow
+  should_retrieve: false # Should the player take the ender chest when he has already opened it?
+  delay:
+    enable: true
+    time: 5 # Time in seconds
+    message: '&#3afb00● &f- You ve recently used an ender chest! Please wait &#3afb00{time} &fseconds to reopen the ender chest'
+messages:
+  noPermission: '&#3afb00● &f- You have no rights!'
