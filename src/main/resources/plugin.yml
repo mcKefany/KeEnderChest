@@ -1,0 +1,8 @@
+main: dev.kefany.Main
+name: KeEnderChest
+
+version: '1.0'
+api-version: '1.16'
+
+commands:
+  enderchest:
